@@ -1,0 +1,21 @@
+/* Base styles for all devices (mobile-first) */
+body {
+    background-color: lightgray;
+    font-size: 16px;
+}
+
+/* Styles for screens 600px and wider (e.g., tablets in landscape, large phones) */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+        font-size: 18px;
+    }
+}
+
+/* Styles for screens 1024px and wider (e.g., small laptops, desktops) */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: white;
+        font-size: 20px;
+    }
+}
